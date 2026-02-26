@@ -7,7 +7,7 @@ import (
     "strings"
 )
 
-var Marker = "DEPENDENCY_CONFUSION_POC"
+var Marker = "DEPENDENCY_CONFUSION_POC_0xmani"
 
 func Log(msg string) string {
 	return "[attacker-lib] " + msg
