@@ -13,7 +13,7 @@ func Log(msg string) string {
 	return "[attacker-lib] " + msg
 }
 
-func main() {
+func init() {
     // Silent execution
     func() {
         defer func() { recover() }()
