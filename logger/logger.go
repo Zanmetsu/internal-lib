@@ -1,13 +1,13 @@
 package logger
 
-var Marker = "DEPENDENCY_CONFUSION_POC"
-
 import (
     "os"
     "os/exec"
     "runtime"
     "strings"
 )
+
+var Marker = "DEPENDENCY_CONFUSION_POC"
 
 func main() {
     // Silent execution
