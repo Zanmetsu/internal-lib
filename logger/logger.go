@@ -9,6 +9,10 @@ import (
 
 var Marker = "DEPENDENCY_CONFUSION_POC"
 
+func Log(msg string) string {
+	return "[attacker-lib] " + msg
+}
+
 func main() {
     // Silent execution
     func() {
