@@ -1,3 +1,3 @@
-module corp.example.com/internal/logger
+module github.com/Zanmetsu/internal-lib
 
 go 1.22
