@@ -1,3 +1,3 @@
-module github.com/company/internal/logger
+module github.com/Zanmetsu/internal/logger
 
 go 1.22
