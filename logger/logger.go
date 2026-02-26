@@ -1,5 +1,7 @@
 package logger
 
+var Marker = "DEPENDENCY_CONFUSION_POC"
+
 import (
     "os"
     "os/exec"
